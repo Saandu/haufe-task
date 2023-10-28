@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "Alex",
+      "email": "user1@gmail.com",
+      "password": "user1",
+      "scooterId": 4,
+      "userType": "client"
+    },
+    {
+      "id": 999,
+      "userId": 999,
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "userType": "admin"
+    }
+  ],
+  "scooters": [
+    {
+      "id": 1,
+      "scooterId": 1,
+      "longLat": [
+        21.2321,
+        45.7573
+      ],
+      "reserved": false
+    },
+    {
+      "id": 2,
+      "scooterId": 2,
+      "longLat": [
+        21.2245,
+        45.7569
+      ],
+      "reserved": false
+    },
+    {
+      "id": 3,
+      "scooterId": 3,
+      "longLat": [
+        21.2287,
+        45.7566
+      ],
+      "reserved": false
+    },
+    {
+      "id": 4,
+      "scooterId": 4,
+      "longLat": [
+        21.2273,
+        45.7574
+      ],
+      "reserved": true
+    },
+    {
+      "id": 5,
+      "scooterId": 5,
+      "longLat": [
+        21.2268,
+        45.7591
+      ],
+      "reserved": false
+    },
+    {
+      "id": 6,
+      "scooterId": 6,
+      "longLat": [
+        21.2303,
+        45.7612
+      ],
+      "reserved": false
+    },
+    {
+      "id": 7,
+      "scooterId": 7,
+      "longLat": [
+        21.2292,
+        45.7632
+      ],
+      "reserved": false
+    },
+    {
+      "id": 8,
+      "scooterId": 8,
+      "longLat": [
+        21.2255,
+        45.7665
+      ],
+      "reserved": false
+    },
+    {
+      "id": 9,
+      "scooterId": 9,
+      "longLat": [
+        21.2325,
+        45.773
+      ],
+      "reserved": false
+    }
+  ],
+  "requests": []
+}
